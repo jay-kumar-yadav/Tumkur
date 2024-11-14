@@ -145,4 +145,87 @@
   .logout-button:hover {
     background-color: #c82333;
   }
+  .dashboard-container {
+    padding: 20px;
+  }
   
+  .user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .user-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    padding: 8px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  .edit-form-container {
+    margin-top: 20px;
+    background-color: #3f3c3c;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .edit-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-form-container label {
+    margin-bottom: 10px;
+  }
+  
+  .edit-form-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .update-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .update-button:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-button {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #5a6268;
+  }
+    
